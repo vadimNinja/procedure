@@ -14,7 +14,7 @@ import java.util.List;
 public class EmployeeController {
 
     private final EmployeeRepository employeeRepository;
-    private final EmployeeRepositoryImpl repository;
+//    private final EmployeeRepositoryImpl repository;
 
     @Autowired
     public EmployeeController(EmployeeRepository employeeRepository, EmployeeRepositoryImpl repository) {
