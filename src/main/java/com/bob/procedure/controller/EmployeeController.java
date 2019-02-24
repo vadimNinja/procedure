@@ -16,6 +16,7 @@ public class EmployeeController {
     private final EmployeeRepository employeeRepository;
     private final EmployeeRepositoryImpl repository;
 
+    //Получение данных с помощью процедуры
     @Autowired
     public EmployeeController(EmployeeRepository employeeRepository, EmployeeRepositoryImpl repository) {
         this.employeeRepository = employeeRepository;
