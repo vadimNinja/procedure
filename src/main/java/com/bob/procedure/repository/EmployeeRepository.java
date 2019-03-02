@@ -12,7 +12,7 @@ public interface EmployeeRepository extends CrudRepository<Employees, Long>, Emp
 
     Employees findById(long id);
 
-    @Procedure("getAllEmployees")
-    List<Employees> getAllEmployees();
+//    @Procedure("getAllEmployees")
+//    List<Employees> getAllEmployees();
 
 }
