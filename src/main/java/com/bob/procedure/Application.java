@@ -27,6 +27,9 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        // Ветка мастер
+
+
         List<Empl> employeesList = employeeDao.getAllEmployees();
         System.out.println(employeesList.get(0).getId());
         System.out.println(employeesList.get(0).getAddress());
