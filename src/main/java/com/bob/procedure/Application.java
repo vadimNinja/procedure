@@ -27,7 +27,7 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        // Branch 2
+        // Branch 2 yet
 
         List<Empl> employeesList = employeeDao.getAllEmployees();
         System.out.println(employeesList.get(0).getId());
